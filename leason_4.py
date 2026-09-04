@@ -25,3 +25,18 @@ print(numbers)
 print(numbers.count(0))
 print(len(numbers))
 nums = [5,2,7,"67",False]
+
+
+n = int(input("enter length: "))
+
+user_list = []
+
+i = 0
+
+while i < n:
+    string = "Enter element #"+ str(i+1)+ ": "
+    user_list.append(input (string) )
+    i += 1
+
+
+print(user_list)
